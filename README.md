@@ -1,4 +1,4 @@
-# System for uploading student notes.
+## System for uploading student notes.
 1. The user is prompted to enter the first name, last name, and exam notes.
 
 2. The number of students and notes per student are unknown.
