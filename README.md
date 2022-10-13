@@ -5,7 +5,7 @@
 
 3. Visually highlight approved notes (green) and disapproved notes (red).
 
-4. The values must be valid (notes from 1 to 10, inclusive).
+4. The values must be valid (notes from 1 to 10, inclusive)
 
 5. When pressing the “Load student” button, the LoadStudent() function must be triggered, which loads the data of the students and their grades. The process is repeated each time the user presses the button.
 
