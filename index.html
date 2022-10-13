@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload your notes!</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>System for uploading student notes</h1>
+        </header>
+        <main>
+            <p>1. The user is prompted to enter the first name, last name, and exam notes.</p>
+            <p>2. The number of students and notes per student are unknown.</p>
+            <p>3. Visually highlight approved notes (green) and disapproved notes (red).</p>
+            <p>4. The values ​​must be valid (notes from 1 to 10, inclusive).</p>
+            <p>5. When pressing the <span>“Load student”</span> button, the LoadStudent() function must be triggered, which loads the data of the students and their grades. The process is repeated each time the user presses the button.</p>
+            <p>6. By pressing the <span>“Show data”</span> button, the ShowData() function should be triggered, which should list all the students, their data, notes (highlights) and the averages of each one.</p>
+            <div class="buttons">
+                <button onclick="LoadStudent();">Load Student</button>
+                <button onclick="ShowData();">Show Data</button>
+            </div>
+            <div id="info"></div>
+            <script src="js/script.js"></script>
+        </main>
+    </body>
+</html>
+
